@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PLEFU | Play. Learn. Explore. Fun. Understand.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+color:#333;
+line-height:1.6;
+background:#fff;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+section{
+padding:80px 0;
+}
+
+h1,h2,h3{
+color:#1d1d1d;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+margin-right:10px;
+transition:.3s;
+}
+
+.btn-primary{
+background:#ff7a00;
+color:#fff;
+}
+
+.btn-primary:hover{
+transform:translateY(-2px);
+}
+
+.btn-outline{
+border:2px solid #ff7a00;
+color:#ff7a00;
+}
+
+.header{
+padding:20px 0;
+border-bottom:1px solid #eee;
+position:sticky;
+top:0;
+background:#fff;
+z-index:100;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+}
+
+.logo span{
+color:#ff7a00;
+}
+
+.socials a{
+text-decoration:none;
+margin-left:15px;
+font-weight:600;
+color:#333;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+padding:80px 0;
+}
+
+.badge{
+display:inline-block;
+background:#fff4e8;
+color:#ff7a00;
+padding:8px 18px;
+border-radius:30px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:52px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero ul{
+list-style:none;
+margin:25px 0;
+}
+
+.hero ul li{
+margin-bottom:10px;
+font-size:18px;
+}
+
+.hero-image img{
+width:100%;
+border-radius:24px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.grid-4{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.card{
+padding:30px;
+background:#fff;
+border-radius:18px;
+box-shadow:0 4px 20px rgba(0,0,0,.06);
+}
+
+.card h3{
+margin:15px 0;
+}
+
+.grid-3{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.routine{
+max-width:700px;
+margin:auto;
+text-align:center;
+}
+
+.routine-item{
+padding:15px;
+margin-bottom:10px;
+background:#fafafa;
+border-radius:12px;
+}
+
+.quote{
+font-size:24px;
+font-weight:600;
+margin-top:30px;
+color:#ff7a00;
+}
+
+.vision{
+background:#fff9f3;
+}
+
+.vision-content{
+max-width:800px;
+margin:auto;
+text-align:center;
+}
+
+.coming-soon{
+text-align:center;
+}
+
+.footer{
+background:#1d1d1d;
+color:#fff;
+padding:50px 0;
+text-align:center;
+}
+
+.footer p{
+margin-top:10px;
+color:#ddd;
+}
+
+.footer a{
+color:#fff;
+margin:0 10px;
+text-decoration:none;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:24px;
+text-decoration:none;
+}
+
+@media(max-width:900px){
+
+.hero{
+grid-template-columns:1fr;
+}
+
+.grid-4{
+grid-template-columns:1fr 1fr;
+}
+
+.grid-3{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.section-title h2{
+font-size:30px;
+}
+}
+
+@media(max-width:600px){
+
+.grid-4{
+grid-template-columns:1fr;
+}
+
+.logo{
+font-size:22px;
+}
+
+.socials{
+display:none;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+<div class="container nav">
+
+<div class="logo">
+PLE<span>FU</span>
+</div>
+
+<div class="socials">
+<a href="YOUR_INSTAGRAM_LINK">Instagram</a>
+<a href="YOUR_WHATSAPP_LINK">WhatsApp</a>
+</div>
+
+</div>
+</header>
+
+<section class="container hero">
+
+<div>
+
+<div class="badge">✨ Play and Learn</div>
+
+<h1>Make Learning a Joyful Family Experience</h1>
+
+<ul>
+<li>✓ Play-based learning</li>
+<li>✓ Less screen time</li>
+<li>✓ More family bonding</li>
+<li>✓ Happy learning habits</li>
+</ul>
+
+<a href="YOUR_INSTAGRAM_LINK" class="btn btn-primary">
+Follow on Instagram
+</a>
+
+</div>
+
+<div class="hero-image">
+<img src="hero-image.jpg" alt="Plefu Family Learning">
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>Because Learning Should Feel Like Play</h2>
+</div>
+
+<div class="grid-4">
+
+<div class="card">
+<h3>🎲 Play First</h3>
+<p>Children engage naturally through games and activities.</p>
+</div>
+
+<div class="card">
+<h3>📚 Learn Naturally</h3>
+<p>Skills develop through curiosity, repetition and fun.</p>
+</div>
+
+<div class="card">
+<h3>❤️ Bond Together</h3>
+<p>Create meaningful parent-child moments every day.</p>
+</div>
+
+<div class="card">
+<h3>🏆 Build Confidence</h3>
+<p>Every correct answer becomes a small win worth celebrating.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>One Brand. Endless Learning Adventures.</h2>
+</div>
+
+<div class="grid-3">
+
+<div class="card">
+<h3>🔤 English Learning</h3>
+<p>Build vocabulary, recognition and confidence.</p>
+</div>
+
+<div class="card">
+<h3>✍️ Hindi Learning</h3>
+<p>Learn Swar, Vyanjan and word formation through play.</p>
+</div>
+
+<div class="card">
+<h3>🔢 Maths Learning</h3>
+<p>Counting and foundational concepts made fun.</p>
+</div>
+
+<div class="card">
+<h3>🍎 Everyday Knowledge</h3>
+<p>Fruits, animals, community helpers and more.</p>
+</div>
+
+<div class="card">
+<h3>👨‍👩‍👧 Family Bonding Games</h3>
+<p>Conversations, laughter and connection.</p>
+</div>
+
+<div class="card">
+<h3>🎯 Skill Building</h3>
+<p>Memory, observation and critical thinking.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container routine">
+
+<h2>Just 10–15 Minutes a Day</h2>
+
+<div class="routine-item">🔤 Monday - English</div>
+<div class="routine-item">🍎 Tuesday - Fruits & Animals</div>
+<div class="routine-item">✍️ Wednesday - Hindi</div>
+<div class="routine-item">🔢 Thursday - Maths</div>
+<div class="routine-item">👨‍⚕️ Friday - Community Helpers</div>
+<div class="routine-item">🎲 Saturday - Family Game Day</div>
+
+<div class="quote">
+Small moments every day create a lifetime of learning.
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>What's Coming Soon</h2>
+</div>
+
+<div class="grid-3">
+
+<div class="card"><h3>ABC Learning Lab</h3></div>
+<div class="card"><h3>Varnmala</h3></div>
+<div class="card"><h3>Mathemate</h3></div>
+<div class="card"><h3>A to Z Challenge</h3></div>
+<div class="card"><h3>Let's Know Each Other Better</h3></div>
+<div class="card"><h3>Movie Magic</h3></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="vision">
+
+<div class="container vision-content">
+
+<h2>Why We Started Plefu</h2>
+
+<p>
+At Plefu, we believe education does not begin with pressure.
+It begins with curiosity.
+Every product we create is designed to help children learn naturally while spending quality time with the people who matter most.
+Because the best learning experiences are shared.
+</p>
+
+</div>
+
+</section>
+
+<section class="coming-soon">
+
+<div class="container">
+
+<h2>Something Exciting Is Coming</h2>
+
+<p>
+We are building a space where families can discover playful learning resources, educational games and meaningful bonding activities.
+</p>
+
+<br>
+
+<a href="YOUR_INSTAGRAM_LINK" class="btn btn-primary">
+Follow on Instagram
+</a>
+
+<a href="YOUR_WHATSAPP_LINK" class="btn btn-outline">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h2>PLEFU</h2>
+
+<p>Play. Learn. Explore. Fun. Understand.</p>
+
+<p>
+<a href="YOUR_INSTAGRAM_LINK">Instagram</a>
+<a href="YOUR_WHATSAPP_LINK">WhatsApp</a>
+</p>
+
+<p>© Plefu. All Rights Reserved.</p>
+
+</footer>
+
+<a href="YOUR_WHATSAPP_LINK" class="whatsapp-float">
+💬
+</a>
+
+</body>
+</html>
